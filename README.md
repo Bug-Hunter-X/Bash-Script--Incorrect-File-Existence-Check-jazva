@@ -1,0 +1,1 @@
+This repository demonstrates a common error in bash scripting: incorrectly checking for file existence.  The `bug.sh` script contains a flawed approach using string comparison. The correct solution is shown in `bugSolution.sh`, using the `-f` operator to check for file existence before processing.
